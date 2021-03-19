@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    //<React.StrictMode>
+      <div className="d-flex flex-column min-vh-100">
+        <App />
+      </div>,
+  //</React.StrictMode>,
   document.getElementById('root')
 );
 
